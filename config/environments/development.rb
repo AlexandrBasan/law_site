@@ -30,8 +30,8 @@ SampleApp::Application.configure do
       :address => "smtp.gmail.com",
       :port => 587,
       :authentication => :plain,
-      :user_name => "teleportds@gmail.com",
-      :password => "infinityteleportds",
+      :user_name => "",
+      :password => "",
       :openssl_verify_mode => 'none'
   }
 end

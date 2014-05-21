@@ -76,6 +76,7 @@ ru:
     mail: "Отправить e-mail"
     site_desctop_version_check: "Site full version"
     site_mobile_version_check: "Мобильная версия сайта"
+    contact: "Contacts"
   newsletters:
     listing_newsletters: "Список рассылок"
     to: "Кому"
@@ -92,6 +93,12 @@ ru:
     subject_specials: "Акции"
     analytics: "Статьи"
     subject_companies_news: "Новости компаний"
+  contacts:
+    listing_contacts: "Listing contacts"
+    name: "Имя"
+    email: "E-mail"
+    phone: "Телефон"
+    content: "Content"
   content:
     about_service: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     privacy_and_security: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
