@@ -9,7 +9,6 @@
       <th><%= (t 'contacts.content') %></th>
       <th></th>
       <th></th>
-      <th></th>
     </tr>
   </thead>
   <%= will_paginate %>
@@ -21,7 +20,6 @@
         <td><%= contact.phone %></td>
         <td><%= contact.content %></td>
         <td><%= link_to (t 'button.show'), contact, class: "btn btn-sm btn-primary" %></td>
-        <td><%= link_to (t 'button.edit'), edit_contact_path(contact), class: "btn btn-sm btn-warning" %></td>
         <td><%= link_to (t 'button.delete'), contact, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-sm btn-danger" %></td>
       </tr>
     <% end %>
