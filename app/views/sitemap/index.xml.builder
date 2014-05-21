@@ -35,30 +35,6 @@ xml.instruct!
           xml.priority 1.0
         end
         xml.url do
-          xml.loc "#{root_url}#how_it_works"
-          xml.lastmod Time.now.to_date
-          xml.changefreq "monthly"
-          xml.priority 1.0
-        end
-        xml.url do
-          xml.loc "#{root_url}#delivery_for_stores"
-          xml.lastmod Time.now.to_date
-          xml.changefreq "monthly"
-          xml.priority 1.0
-        end
-        xml.url do
-          xml.loc "#{root_url}#for_delivery_companies"
-          xml.lastmod Time.now.to_date
-          xml.changefreq "monthly"
-          xml.priority 1.0
-        end
-        xml.url do
-          xml.loc "#{root_url}#delivery_for_all"
-          xml.lastmod Time.now.to_date
-          xml.changefreq "monthly"
-          xml.priority 1.0
-        end
-        xml.url do
           xml.loc "#{root_url}#contact_us"
           xml.lastmod Time.now.to_date
           xml.changefreq "monthly"

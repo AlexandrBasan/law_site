@@ -1,4 +1,4 @@
-# Teleport Delivery Service site
+# Law project
 
     $ cd /tmp
     $ git clone https://github.com/railstutorial/sample_app_rails_4.git
@@ -47,12 +47,3 @@ Heroku
     $ heroku rake db:migrate
     $ heroku restart
     $ heroku open
-
-Heroku database
-https://devcenter.heroku.com/articles/pgbackups
-https://devcenter.heroku.com/articles/heroku-postgres-import-export
-or use PGAdmin
-
-    $ heroku pgbackups:capture
-    $ heroku pgbackups:url - backup to url
-    $ heroku pgbackups:restore DATABASE 'https://s3.amazonaws.com/me/items/3H0q/mydb.dump'
