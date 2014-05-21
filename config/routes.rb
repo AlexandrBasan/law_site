@@ -1,5 +1,7 @@
 SampleApp::Application.routes.draw do
 
+  resources :contacts
+
   resources :newsletters
 
   # http://guides.rubyonrails.org/i18n.html
@@ -15,7 +17,7 @@ SampleApp::Application.routes.draw do
   match '/terms_of_use', to: 'static_pages#terms_of_use', via: 'get'
   match '/signup',  to: 'users#new',            via: 'get'
   match '/signin',  to: 'sessions#new',         via: 'get'
-  #match '/signout', to: 'sessions#destroy',     via: 'delete'
+  match '/signout', to: 'sessions#destroy',     via: 'delete'
   #match '/help',    to: 'static_pages#help',    via: 'get'
   #match '/about',   to: 'static_pages#about',   via: 'get'
   #match '/contact', to: 'static_pages#contact', via: 'get'

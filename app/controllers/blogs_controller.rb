@@ -1,5 +1,6 @@
 class BlogsController < ApplicationController
   before_action :set_blog, only: [:show, :edit, :update, :destroy]
+  before_action :check_if_user_access, only: [:create, :update, :destroy, :edit, :new]
 
   # GET /blogs
   # GET /blogs.json
@@ -8,37 +9,37 @@ class BlogsController < ApplicationController
       if I18n.locale == :ru
         @blogs = Blog.where(content_type: "news", language: "RU").paginate(page: params[:page])
       else
-        @blogs = Blog.where(content_type: "news", language: "EN").paginate(page: params[:page])
+        @blogs = Blog.where(content_type: "news", language: "UA").paginate(page: params[:page])
       end
     elsif params[:content_type] == "saas"
       if I18n.locale == :ru
-        @blogs = Blog.where(content_type: "saas", language: "RU").paginate(page: params[:page])
+        @blogs = Blog.where(content_type: "analytics", language: "RU").paginate(page: params[:page])
       else
-        @blogs = Blog.where(content_type: "saas", language: "EN").paginate(page: params[:page])
+        @blogs = Blog.where(content_type: "analytics", language: "UA").paginate(page: params[:page])
       end
     elsif params[:content_type] == "specials"
       if I18n.locale == :ru
         @blogs = Blog.where(content_type: "specials", language: "RU").paginate(page: params[:page])
       else
-        @blogs = Blog.where(content_type: "specials", language: "EN").paginate(page: params[:page])
+        @blogs = Blog.where(content_type: "specials", language: "UA").paginate(page: params[:page])
       end
     elsif params[:content_type] == "companies_news"
       if I18n.locale == :ru
         @blogs = Blog.where(content_type: "companies_news", language: "RU").paginate(page: params[:page])
       else
-        @blogs = Blog.where(content_type: "companies_news", language: "EN").paginate(page: params[:page])
+        @blogs = Blog.where(content_type: "companies_news", language: "UA").paginate(page: params[:page])
       end
     elsif params[:content_type] == ""
       if I18n.locale == :ru
         @blogs = Blog.where(language: "RU").paginate(page: params[:page])
       else
-        @blogs = Blog.where(language: "EN").paginate(page: params[:page])
+        @blogs = Blog.where(language: "UA").paginate(page: params[:page])
       end
     else
       if I18n.locale == :ru
         @blogs = Blog.where(language: "RU").paginate(page: params[:page])
       else
-        @blogs = Blog.where(language: "EN").paginate(page: params[:page])
+        @blogs = Blog.where(language: "UA").paginate(page: params[:page])
       end
     end
   end
@@ -93,6 +94,13 @@ class BlogsController < ApplicationController
     respond_to do |format|
       format.html { redirect_to blogs_url }
       format.json { head :no_content }
+    end
+  end
+
+  def check_if_user_access
+    if current_user && current_user.admin?
+    else
+      redirect_to root_path
     end
   end
 

@@ -23,7 +23,7 @@
   </div>
   <div class="field">
     <%= f.label (t 'blog.language') %><br>
-    <%= f.select :language, options_for_select([[(t 'language.en'), "EN"], [(t 'language.ru'), "RU"]], selected: :option, :selected => @blog.language) %>
+    <%= f.select :language, options_for_select([[(t 'language.ru'), "RU"], [(t 'language.ua'), "UA"]], selected: :option, :selected => @blog.language) %>
   </div>
     <div class="field">
       <%= f.label (t 'blog.content_type') %><br>

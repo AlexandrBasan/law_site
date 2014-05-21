@@ -107,9 +107,9 @@
               </br>
             </article>
             <% if current_user.try(:admin?) %>
-                <td><%= link_to 'Show', blog, class: "btn btn-sm btn-primary" %></td>
-                <td><%= link_to 'Edit', edit_blog_path(blog), class: "btn btn-sm btn-warning" %></td>
-                <td><%= link_to 'Destroy', blog, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-sm btn-danger" %></td>
+                <td><%= link_to (t 'button.show'), blog, class: "btn btn-sm btn-primary" %></td>
+                <td><%= link_to (t 'button.edit'), edit_blog_path(blog), class: "btn btn-sm btn-warning" %></td>
+                <td><%= link_to (t 'button.delete'), blog, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-sm btn-danger" %></td>
             <% else %>
             <% end %>
         <% end %>
