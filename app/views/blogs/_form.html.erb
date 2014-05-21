@@ -27,7 +27,7 @@
   </div>
     <div class="field">
       <%= f.label (t 'blog.content_type') %><br>
-      <%= f.select :content_type, options_for_select([[(t 'blog.news'), "news"], [(t 'blog.teleport_saas_system'), "saas"], [(t 'blog.specials'), "specials"], [(t 'blog.companies_news'), "companies_news"]], selected: :option, :selected => @blog.content_type) %>
+      <%= f.select :content_type, options_for_select([[(t 'blog.news'), "news"], [(t 'blog.analytics'), "analytics"], [(t 'blog.specials'), "specials"], [(t 'blog.companies_news'), "companies_news"]], selected: :option, :selected => @blog.content_type) %>
     </div>
   <div class="actions">
     <%= f.submit (t 'button.ok'), class: "btn btn-sm btn-primary" %>
