@@ -75,7 +75,7 @@ p {
   color: white;
   text-transform: uppercase;
   letter-spacing: -1px;
-  padding-top: 9px;
+  padding-top: 12px;
   font-weight: bold;
   line-height: 1;
   &:hover {
@@ -329,6 +329,8 @@ aside {
   opacity: .4;
   filter: alpha(opacity=40);
 }
+
+/* Pricing */
 
 #pricing .plan .plan-title {
   margin: 0;
