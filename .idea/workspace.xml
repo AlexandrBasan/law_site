@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27069a69-ce26-48e9-9843-d9c3689768bf" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/locales/en copy.yml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/_contacts.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/_contacts.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/ru.yml" afterPath="$PROJECT_DIR$/config/locales/ru.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/ua.yml" afterPath="$PROJECT_DIR$/config/locales/ua.yml" />
     </list>
     <ignored path="law_site.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,13 +27,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_contacts.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_contacts.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/static_pages/_contacts.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="14" selection-start="2487" selection-end="2487" vertical-scroll-proportion="-9.541667" vertical-offset="671" max-vertical-offset="1260">
+            <state line="38" column="44" selection-start="1614" selection-end="1614" vertical-scroll-proportion="0.8551237" vertical-offset="86" max-vertical-offset="1260">
               <folding>
                 <element signature="e#851#876#1" expanded="true" />
-                <element signature="e#1591#1611#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -40,7 +41,7 @@
       <file leaf-file-name="ua.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/locales/ua.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="45" selection-start="756" selection-end="756" vertical-scroll-proportion="0.0" vertical-offset="143" max-vertical-offset="1965">
+            <state line="101" column="0" selection-start="3336" selection-end="3485" vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="1965">
               <folding />
             </state>
           </provider>
@@ -76,10 +77,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ru.yml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ru.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/locales/ru.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="43" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.44194108" vertical-offset="285" max-vertical-offset="1965">
+            <state line="106" column="4" selection-start="3575" selection-end="3575" vertical-scroll-proportion="0.0" vertical-offset="1215" max-vertical-offset="2010">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.mobile.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.mobile.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="102" selection-end="102" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="300">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.mobile.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.mobile.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="13" selection-start="810" selection-end="810" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="930">
               <folding />
             </state>
           </provider>
@@ -134,13 +153,13 @@
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-        <option value="$PROJECT_DIR$/app/views/static_pages/_contacts.html.erb" />
-        <option value="$PROJECT_DIR$/config/locales/ru.yml" />
-        <option value="$PROJECT_DIR$/config/locales/ua.yml" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.mobile.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/mobile/_footer.mobile.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/mobile/_header.mobile.erb" />
+        <option value="$PROJECT_DIR$/app/views/static_pages/_contacts.html.erb" />
+        <option value="$PROJECT_DIR$/config/locales/ua.yml" />
+        <option value="$PROJECT_DIR$/config/locales/ru.yml" />
       </list>
     </option>
   </component>
@@ -265,6 +284,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="static_pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="law_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="law_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static_pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -488,7 +533,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="45" width="1280" height="705" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -496,7 +541,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917318" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30048466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30048466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -569,11 +614,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/sitemap/index.xml.builder">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="11" selection-start="933" selection-end="933" vertical-scroll-proportion="0.61864406" vertical-offset="160" max-vertical-offset="750" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.mobile.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="102" selection-end="102" vertical-scroll-proportion="0.10186757" vertical-offset="0" max-vertical-offset="589" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
@@ -760,23 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/static_pages/_contacts.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="14" selection-start="2487" selection-end="2487" vertical-scroll-proportion="-9.541667" vertical-offset="671" max-vertical-offset="1260">
-          <folding>
-            <element signature="e#851#876#1" expanded="true" />
-            <element signature="e#1591#1611#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/ua.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="45" selection-start="756" selection-end="756" vertical-scroll-proportion="0.0" vertical-offset="143" max-vertical-offset="1965">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/contacts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="42" selection-start="667" selection-end="675" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1320">
@@ -805,13 +828,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.mobile.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="810" selection-end="810" vertical-scroll-proportion="0.50353354" vertical-offset="0" max-vertical-offset="930">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="13" selection-start="1016" selection-end="1016" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="825">
@@ -822,10 +838,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/ua.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="0" selection-start="3336" selection-end="3485" vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="1965">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/locales/ru.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="43" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.44194108" vertical-offset="285" max-vertical-offset="1965">
+        <state line="106" column="4" selection-start="3575" selection-end="3575" vertical-scroll-proportion="0.0" vertical-offset="1215" max-vertical-offset="2010">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.mobile.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="102" selection-end="102" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.mobile.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="13" selection-start="810" selection-end="810" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages/_contacts.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="44" selection-start="1614" selection-end="1614" vertical-scroll-proportion="0.8551237" vertical-offset="86" max-vertical-offset="1260">
+          <folding>
+            <element signature="e#851#876#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
