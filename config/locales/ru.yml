@@ -24,7 +24,7 @@ ru:
   full_site: "Полная версия сайта"
   mobile_site: "Мобильная версия сайта"
   main:
-    start_teleporting_today: "Мы самая охуенная юридическая компания"
+    start_teleporting_today: "Мы самая крутая юридическая компания"
     small_about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
   menu:
     about_us: "О нас"
@@ -43,6 +43,9 @@ ru:
     say_hello: "Свяжитесь с нами!"
     contact: "Контакты"
     contact_text: "Хотите получить бесплатную юридическую консультацию - Напишите нам"
+    company_name: "Law Assistant LLC"
+    phone: "+38 044 384 4160 | +38 067 466 9359"
+    address: "Украина, Киев, ул. Академика Крымского, 27А"
   blog:
     categories: "Категории"
     created_at: "Created at"
