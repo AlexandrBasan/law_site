@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27069a69-ce26-48e9-9843-d9c3689768bf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/static_pages/mobile/_footer.mobile.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/static_pages/mobile/_header.mobile.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.mobile.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.mobile.erb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/locales/en copy.yml" afterPath="" />
     </list>
     <ignored path="law_site.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,10 +64,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="13" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.7155477" vertical-offset="0" max-vertical-offset="825">
+            <state line="27" column="13" selection-start="1016" selection-end="1016" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="825">
               <folding>
                 <marker date="1400760635000" expanded="true" signature="365:494" placeholder="{...}" />
                 <marker date="1400760635000" expanded="true" signature="405:482" placeholder="{&quot;interval&quot;: 5000...}" />
@@ -79,10 +76,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ru.yml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ru.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/locales/ru.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="45" selection-start="750" selection-end="756" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1965">
+            <state line="36" column="43" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.44194108" vertical-offset="285" max-vertical-offset="1965">
               <folding />
             </state>
           </provider>
@@ -196,6 +193,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="law_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="law_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="law_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="law_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="law_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="locales" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -459,7 +488,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="45" width="1280" height="705" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -467,7 +496,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917318" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30048466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30048466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -499,11 +528,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0" vertical-offset="103" max-vertical-offset="690" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.mobile.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="795" />
@@ -746,13 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/ru.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="45" selection-start="750" selection-end="756" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1965">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/locales/ua.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="45" selection-start="756" selection-end="756" vertical-scroll-proportion="0.0" vertical-offset="143" max-vertical-offset="1965">
@@ -797,11 +814,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="13" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.7155477" vertical-offset="0" max-vertical-offset="825">
+        <state line="27" column="13" selection-start="1016" selection-end="1016" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="825">
           <folding>
             <marker date="1400760635000" expanded="true" signature="365:494" placeholder="{...}" />
             <marker date="1400760635000" expanded="true" signature="405:482" placeholder="{&quot;interval&quot;: 5000...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/ru.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="43" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.44194108" vertical-offset="285" max-vertical-offset="1965">
+          <folding />
         </state>
       </provider>
     </entry>
