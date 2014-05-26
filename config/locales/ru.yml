@@ -24,12 +24,13 @@ ru:
   full_site: "Полная версия сайта"
   mobile_site: "Мобильная версия сайта"
   main:
-    start_teleporting_today: "Мы юридическая и бухгалтерская аутсорсинговая компания специализируящаяся на IT секторе"
+    start_teleporting_today: "Мы юридическая консалтинговая компания с ориентацией на клиентов из IT индустрии."
     small_about: "Совет юриста, который предупредит наступление неприятностей всегда обходиться дешевле, чем любые юридические меры помогающие выпутаться из них."
   menu:
     about_us: "О нас"
     whom_is_our_service_for: "Что мы делаем?"
     for_startups: "Для Стартапов и IT компаний"
+    for_ecommerce: "Для проектов сферы электронной коммерции"
     pricing: "Сколько это стоит?"
     blog: "Блог"
     contact_us: "Контакты"
@@ -42,7 +43,7 @@ ru:
     get_social: "Мы в социальных сетях"
     say_hello: "Свяжитесь с нами!"
     contact: "Контакты"
-    contact_text: "Хотите получить бесплатную юридическую консультацию - Напишите нам"
+    contact_text: "Хотите получить бесплатную юридическую консультацию - Напишите нам!"
     company_name: "Law Assistant LLC"
     phone: "+38 044 384 4160 | +38 067 466 9359"
     address: "Украина, Киев, ул. Академика Крымского, 27А"
@@ -106,10 +107,11 @@ ru:
     phone_c: "+38 044 384 4160 | +38 067 466 9359"
     address_c: "Украина, Киев, ул. Академика Крымского, 27А"
   content:
-    about_service: "Мы юридическая консалтинговая компания с ориентацией на клиентов из IT индустрии. Наши услуги подойдут как начинающим специалистам, так и специалистам со стажем, желающим организовать и обезопасить свой бизнес."
+    about_service: "Основной целью нашей компании является взятие на себя функций профессиональной юридической и консалтинговой поддержки молодых и начинающих специалистов в IT - индустрии, что позволит нашим клиента сконцентрировать свои усилия на развитии собственно проекта. Также наши услуги будут интересны и более продвинутым игрокам IT- индустрии, которые по специфике своей работы не нуждаются в постоянном штатном юристе или консультанте но нуждаются в предоставлении юридических и консалтинговых услуг. Преимуществом нашей компании является тот факт, что мы разбираемся в потребностях компаний работающих в сфере IT."
     privacy_and_security: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     terms_of_use: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     for_startups: "Разработка внешних и внутренних договоров компании (с заказчиками, аутсорсерами, фрилансерами, CEO, CTO, адвайзерами etc.) Консультации в области привлечения инвестиций. Legal Due-diligence. Помощь при привлечении инвестиций, подготовка компании к продаже. Помощь в выборе и разработка лицензионных соглашений."
+    for_ecommerce: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     pricing: "Pay as you grow"
     law_outsorsing: "Юридический аутсорсинг"
   pricing:
