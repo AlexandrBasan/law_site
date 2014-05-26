@@ -376,7 +376,7 @@ aside {
 
 #pricing .plan .plan-title h3 {
   font-weight: 200;
-  font-size: 4em;
+  font-size: 3.5em;
   line-height: 1.5em;
   margin-top: 0;
   color: #333333;
@@ -403,4 +403,11 @@ p#notice {
   padding-top: 20px;
   font-size: 20pt;
   color: #5cb85c;
+}
+
+sub, sup {
+  font-size: 45%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
 }

@@ -10,21 +10,9 @@ class ApplicationController < ActionController::Base
   # Mobile
 
   def set_locale
-    # Check user browser language
-    if I18n.locale = params[:locale]
-      # Language switcher
-      I18n.locale = params[:locale] || I18n.default_locale
-    else
-      logger.debug "* Accept-Language: #{request.env['HTTP_ACCEPT_LANGUAGE']}"
-      I18n.locale = extract_locale_from_accept_language_header
-      logger.debug "* Locale set to '#{I18n.locale}'"
-    end
+    I18n.locale = params[:locale] || I18n.default_locale
   end
 
-
-  def extract_locale_from_accept_language_header
-    request.env['HTTP_ACCEPT_LANGUAGE'].scan(/^[a-z]{2}/).first
-  end
 
 # Mobile
   def mobile_device?
